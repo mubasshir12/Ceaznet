@@ -1,0 +1,9 @@
+{
+  "name": "Ceaznet v4.0",
+  "description": "Ceaznet",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

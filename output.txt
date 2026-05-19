@@ -1,0 +1,184 @@
+Task 1 | ID: 9e7cb55a-a623-416a-a116-4ce92d153430 | Title: Public user uploads bucket with RLS policies
+  Tables: profiles
+
+Task 2 | ID: 5acb4717-0dab-4506-b2ca-fdaf20e5ab6d | Title: Public user uploads bucket with RLS policies
+  Tables: 
+
+Task 3 | ID: b9cf242a-9c02-42fc-a290-605167df57aa | Title: User Settings Storage with RLS Automation
+  Tables: user_settings
+
+Task 4 | ID: 25e6a388-3191-433a-adc4-e7f01d3a2cb2 | Title: Central Public News Articles Table
+  Tables: public_news_articles,user_settings
+
+Task 5 | ID: 0ffbfff3-4e5c-4b52-91e8-b3e5f35d1772 | Title: Hourly Edge News Sync Job
+  Tables: 
+
+Task 6 | ID: 2c60fe54-fced-476c-8c75-2dab19b55a32 | Title: Article Conversation History
+  Tables: article_conversations
+
+Task 7 | ID: 8340f3fe-3fda-4a09-8486-e020bf00ddec | Title: Public News Articles Table
+  Tables: public_news_articles
+
+Task 8 | ID: 35d72ddf-68a9-4876-8cf3-293221f869a8 | Title: Article Conversation History
+  Tables: public_article_cache,article_conversations
+
+Task 9 | ID: dee3d8f6-aba2-44f0-b6b1-944a212b39ae | Title: Update News Function Run Logs
+  Tables: update_news_logs
+
+Task 10 | ID: 46753056-c124-46c6-8662-05b492f394d2 | Title: Add Engagement Metrics to News Articles
+  Tables: public_news_articles
+
+Task 11 | ID: f0106249-00ae-41fb-9b41-0035d742f4d8 | Title: Add Engagement Metrics to News Articles
+  Tables: user_article_interactions
+
+Task 12 | ID: a6ced8a3-42dc-452d-9702-b2e49887f998 | Title: Atomic Article Stat Increment
+  Tables: 
+
+Task 13 | ID: 19fd9806-a1e2-4cdd-90f1-5b17fc656d3a | Title: Real-Time Table Statistics Function
+  Tables: 
+
+Task 14 | ID: 808460f5-93d9-4df2-acd5-028e7fe9048d | Title: Function Execution Statistics
+  Tables: 
+
+Task 15 | ID: 686219dd-305b-44bf-a72d-a5462259854b | Title: User UI Customization Settings
+  Tables: user_settings
+
+Task 16 | ID: 31bc80f9-bac6-414e-9df9-012caabdd219 | Title: User Notes Storage with RLS
+  Tables: notes
+
+Task 17 | ID: b8a53b8b-7a95-4a2a-bb96-8e19302ac958 | Title: User Finance Transactions Table with RLS
+  Tables: finance_transactions
+
+Task 18 | ID: 26911d6f-1f9b-4daf-aae5-94616d0aad77 | Title: Finance Profiles and Transactions Schema
+  Tables: finance_profiles,finance_transactions
+
+Task 19 | ID: 2a276c99-412f-41c8-b81b-4e689e4e2e90 | Title: Add Location JSONB to Finance Transactions
+  Tables: finance_transactions
+
+Task 20 | ID: 23387ec6-17f2-41c2-9341-c213b4666eaf | Title: User Vehicles & Transaction Metadata Setup
+  Tables: vehicles,finance_transactions
+
+Task 21 | ID: 1bfa2014-fb31-4338-8ae5-30ac885afd12 | Title: Voice Conversations Storage Setup
+  Tables: conversations
+
+Task 22 | ID: b160b1f6-e47d-4d0c-a6ab-cef1560b3f7d | Title: Dairy Inventory, Entries, and Payments Schema
+  Tables: dairy_items,dairy_entries,dairy_payments
+
+Task 23 | ID: 7aef1f79-f54f-4cae-99a6-8c788474359c | Title: Dairy Items, Entries & Payments Schema
+  Tables: dairy_items,dairy_entries,dairy_payments
+
+Task 24 | ID: 59d3d0ff-79d5-4419-8dea-d0a93324648a | Title: User Gallery Items with RLS Access Control
+  Tables: gallery_items
+
+Task 25 | ID: 67ab1915-ecde-4d8a-9602-b7e61b9034d4 | Title: List Public Base Table Names
+  Tables: 
+
+Task 26 | ID: 56f80e26-0aa9-40d1-ba1b-e001ecfdf32f | Title: Activity Audit Logging with Auto-Triggers
+  Tables: activity_logs
+
+Task 27 | ID: 0cb584fa-2043-462b-a21e-8cb6b39f4d44 | Title: Activity log and automatic trigger
+  Tables: activity_logs
+
+Task 28 | ID: 04b7920e-d812-4a44-947f-0b7932fff567 | Title: Acivity log trigger function
+  Tables: 
+
+Task 29 | ID: ef43cc9d-7728-41eb-9b08-6caae3ce72d4 | Title: Admin Truncate and Sequence Reset with Activity Logging
+  Tables: 
+
+Task 30 | ID: 3739f8f0-c83e-4ca7-85af-10a2d485dc66 | Title: API Key Activity Logging for News Providers
+  Tables: news_api_keys
+
+Task 31 | ID: 6a42ac64-e514-437b-9e6d-95144243f159 | Title: Drop Table Utility
+  Tables: 
+
+Task 32 | ID: 6f424f9e-1c3d-4f14-b958-d9313fb08ced | Title: Database Analytics with Last Used Timestamp
+  Tables: 
+
+Task 33 | ID: dfdfc2dc-aadb-4cdf-8192-74c14a6efe24 | Title: News API Key Tracking & Activity Logging
+  Tables: news_api_keys
+
+Task 34 | ID: 590e2066-7f64-41da-85d9-6663fa730867 | Title: News API Key & Processing Auditing Extensions
+  Tables: api_key_audit_logs,article_processing_logs,news_api_keys
+
+Task 35 | ID: f664d2e4-6cbd-430d-9abf-c8641773639e | Title: News API Keys & Activity Auditing Setup
+  Tables: news_api_keys,api_key_audit_logs
+
+Task 36 | ID: 982ded56-f658-47d0-82ad-70ae03a5055f | Title: News System Configuration Store
+  Tables: table
+create,news_system_config
+
+Task 37 | ID: 90ac1337-f719-4723-95fe-b43df548161d | Title: Add Activity Logs to Realtime Publication
+  Tables: 
+
+Task 38 | ID: b34379d2-de15-4adc-936b-3c325ff0d3bb | Title: Enable Realtime Updates for News System Config
+  Tables: 
+
+Task 39 | ID: ed668954-58f8-4494-93d7-af8d66d38428 | Title: Get Public Tables With Sequence Flag
+  Tables: 
+
+Task 40 | ID: 85682be4-b9a4-42c3-9f19-fe2304a64803 | Title: Add Account Name to API Keys
+  Tables: news_api_keys
+
+Task 41 | ID: 0e548973-443f-4742-8e2e-2b4e9bb4c56e | Title: News API Key Success/Failure Cooldown Management
+  Tables: 
+
+Task 42 | ID: d5789651-d24c-4499-85dc-1204858c3ddb | Title: Broadcast table
+  Tables: for,broadcasts,broadcast_iterations
+
+Task 43 | ID: cd1c62b1-9c9a-4b56-8779-835e8f102df4 | Title: Profiles, Settings, and Avatar Storage Setup
+  Tables: profiles,user_settings
+
+Task 44 | ID: a6b11fb7-037b-415c-be4e-82c528f10bd3 | Title: User Settings Storage & RLS Setup
+  Tables: user_settings
+
+Task 45 | ID: 4fe2b6d4-f47b-48df-a6b7-886c0b8c17d5 | Title: Dairy Tables Schema Updates
+  Tables: dairy_payments,dairy_items,dairy_entries
+
+Task 46 | ID: adf01114-c6ed-408b-9ade-97a22af5ba7f | Title: Add Conversation Metadata Columns
+  Tables: conversations
+
+Task 47 | ID: 6c86c327-c90d-4c4c-8973-c349814b5cd0 | Title: News System Configuration Store
+  Tables: news_system_config
+
+Task 48 | ID: 556cda96-9952-42e9-920e-52fbb8f32bd8 | Title: Add Broadcast Expiration Timestamp
+  Tables: broadcasts
+
+Task 49 | ID: dc02d7b5-a507-4263-a710-9a728c85842d | Title: Add user_id foreign key to conversations
+  Tables: conversations
+
+Task 50 | ID: 2642982d-7500-4875-ac84-b699c73b2abb | Title: Idempotent Conversations Schema Migration
+  Tables: conversations
+
+Task 51 | ID: 6241acd0-5984-4bd6-bb50-fce28ca7a5ea | Title: Add Dismissible and Display Type Fields
+  Tables: broadcasts
+
+Task 52 | ID: b2283523-7be7-4f93-bb4b-2559b1792400 | Title: Add Default Broadcast Type
+  Tables: broadcasts
+
+Task 53 | ID: 0565182c-28d4-4058-b2f3-c951cedf4494 | Title: Add Broadcast Classification Columns
+  Tables: broadcasts
+
+Task 54 | ID: 6651c907-6672-4495-8d7f-ce22d1c93bd1 | Title: Support Conversations and Messages Schema
+  Tables: support_conversations,support_messages
+
+Task 55 | ID: 64ddc2f1-9d5f-403c-8e00-453220afdfb9 | Title: Update Support Admin Message Read Status
+  Tables: 
+
+Task 56 | ID: f74350be-ddaf-45ee-aef3-810fab561073 | Title: Add Attachment Fields to Support Messages
+  Tables: support_messages
+
+Task 57 | ID: e0acf292-5244-41e8-917c-8228ab8b4015 | Title: Self-Serve Deletion for Support Data
+  Tables: 
+
+Task 58 | ID: 107c59b1-6576-4fc2-b8bc-47686073b900 | Title: Add Message Read Timestamp
+  Tables: support_messages
+
+Task 59 | ID: 6bc10f61-8690-4de4-a918-d83402788b9a | Title: Platform Settings Store with RLS Defaults
+  Tables: platform_settings
+
+Task 60 | ID: f3bdd87f-955f-4232-909b-fb1f5f747c10 | Title: User Molecules Storage with RLS
+  Tables: user_molecules,user_settings
+
+Task 61 | ID: 14c261c5-d3e6-4c06-b002-cbf6fa1ffe7b | Title: API Key Activity Logging for News Providers
+  Tables: news_api_keys
+

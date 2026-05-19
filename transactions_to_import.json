@@ -1,0 +1,2108 @@
+[
+  {
+    "id": "88aaebec-6685-42f5-b47e-2927c76de3e2",
+    "amount": 200,
+    "type": "income",
+    "category": "Salary",
+    "description": "MUSTAFA ISMAIL SHAIKH - Payment from PhonePe",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-23T23:10:00.000Z"
+  },
+  {
+    "id": "3cd98e43-e0a5-4ff6-9a4c-81b06d9f9dc0",
+    "amount": 15,
+    "type": "expense",
+    "category": "Food",
+    "description": "MOHD AKHLAK KHAN SO SHAHNOOR - Pav for lunch from shanu store",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-24T12:16:00.000Z"
+  },
+  {
+    "id": "ed12bdc8-df0b-455f-acda-f1df00be2bee",
+    "amount": 100,
+    "type": "expense",
+    "category": "Other",
+    "description": "GANESH SONU MEMANE - Payment",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-24T22:38:00.000Z"
+  },
+  {
+    "id": "4b78580a-b0de-47d9-a7c6-1c41b7b3c456",
+    "amount": 351,
+    "type": "expense",
+    "category": "Mobile",
+    "description": "Recharge of VODAFONE - Mobile Recharge",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-25T04:43:00.000Z"
+  },
+  {
+    "id": "8a9796f4-a25a-4702-a8b4-0add559dafa7",
+    "amount": 20,
+    "type": "expense",
+    "category": "Food",
+    "description": "ROHINI SUNIL NAIR - Frankies from alt canteen",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-27T16:49:00.000Z"
+  },
+  {
+    "id": "591d07c1-6b30-4f4b-bfd1-420c8007a70f",
+    "amount": 15,
+    "type": "expense",
+    "category": "Food",
+    "description": "HYDRABAD EGGS CENTRE - Eggs broken",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-28T10:40:00.000Z"
+  },
+  {
+    "id": "65e462d7-7031-4859-9470-3890e38370c8",
+    "amount": 50,
+    "type": "expense",
+    "category": "Other",
+    "description": "SALIM MOHAMMED HUSSA - Onion",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-28T10:43:00.000Z"
+  },
+  {
+    "id": "fffb053b-ed18-4081-b927-1c071d8a14c5",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "BHAIYALAL - Banana",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-28T10:45:00.000Z"
+  },
+  {
+    "id": "386d6004-a167-45be-abb3-dd9b3909774d",
+    "amount": 15,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHANALAM - Pv",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-28T12:27:00.000Z"
+  },
+  {
+    "id": "bd2144ff-85c9-47e0-aecf-2cb53afe6a46",
+    "amount": 10,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "ROHINI SUNIL NAIR - Water bottle",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-28T18:52:00.000Z"
+  },
+  {
+    "id": "3ef0d2c9-0ed6-4b65-9fd3-b643328f0fe0",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "KAVINDRAUDAYVIRSINGH - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-28T21:47:00.000Z"
+  },
+  {
+    "id": "4126edec-9716-4cac-a7f8-340c18df6fc9",
+    "amount": 20,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways Ticketing - Rail tucjet",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-29T11:26:00.000Z"
+  },
+  {
+    "id": "65b3d4d5-2e06-4480-ac77-50160d561e8b",
+    "amount": 10,
+    "type": "expense",
+    "category": "Groceries",
+    "description": "Mithila General Stores - Pani",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-29T18:19:00.000Z"
+  },
+  {
+    "id": "0719285a-9387-4e45-8596-8acdc3173103",
+    "amount": 50,
+    "type": "expense",
+    "category": "Other",
+    "description": "MOHDROMAN ASHRAF SHA - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-29T22:41:00.000Z"
+  },
+  {
+    "id": "a315cf6c-8d5a-458d-83ce-678e3955e3fe",
+    "amount": 22,
+    "type": "expense",
+    "category": "Mobile",
+    "description": "Recharge of AIRTEL - Mobile Recharge",
+    "payment_method": "UPI",
+    "transaction_date": "2026-03-30T21:49:00.000Z"
+  },
+  {
+    "id": "09ea9a3a-c474-496f-a3ea-0c55b0d5dd03",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "GIRISH DOGU SHETTY - For roman cream n onion",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-01T20:31:00.000Z"
+  },
+  {
+    "id": "394b4df2-d5e5-4db3-acd4-084271543b96",
+    "amount": 20,
+    "type": "expense",
+    "category": "Food",
+    "description": "MAHADEV SUPER MARKET - Chakli packet for snacks",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-01T20:34:00.000Z"
+  },
+  {
+    "id": "f67053b3-6279-4aa4-a918-8124692d486a",
+    "amount": 20,
+    "type": "expense",
+    "category": "Chai",
+    "description": "MOHD YASIN - Chai and chkli from altruist canteen",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-02T18:21:00.000Z"
+  },
+  {
+    "id": "82e0cb65-5e98-4e7d-85e6-c8bcc142486b",
+    "amount": 10,
+    "type": "expense",
+    "category": "Transport",
+    "description": "SACHIN KHUSHAL GIRI - Rkshaw farei",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-02T21:49:00.000Z"
+  },
+  {
+    "id": "bc0ec4c0-c800-4543-97db-849a539c5ee7",
+    "amount": 100,
+    "type": "expense",
+    "category": "Food",
+    "description": "DOSANI SHABINA AKADAR - For eggs and pav",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-02T22:57:00.000Z"
+  },
+  {
+    "id": "bad57442-148a-4cfa-b49f-bbc8801de572",
+    "amount": 9.7,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways UTS - Ticket",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-03T11:26:00.000Z"
+  },
+  {
+    "id": "300d9d9e-17c9-4a90-8d05-419a6856c613",
+    "amount": 10,
+    "type": "expense",
+    "category": "Chai",
+    "description": "MOHD YASIN - Chai",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-03T18:04:00.000Z"
+  },
+  {
+    "id": "49c2b8b7-7366-4b4f-b7f1-8f03c8ff4c85",
+    "amount": 10,
+    "type": "expense",
+    "category": "Food",
+    "description": "ROHINI SUNIL NAIR - Pav from canteen",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-03T18:04:00.000Z"
+  },
+  {
+    "id": "fbd57743-872b-4d36-9266-213f6a8bbf44",
+    "amount": 351,
+    "type": "expense",
+    "category": "Mobile",
+    "description": "Recharge of AIRTEL - Mobile Recharge",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-04T00:07:00.000Z"
+  },
+  {
+    "id": "b91724f7-7e23-481f-903a-ffd1938f5cb3",
+    "amount": 10,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "MAU SHADAB - Big cola",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-04T22:42:00.000Z"
+  },
+  {
+    "id": "a9279631-fcb2-47b0-84d8-0b866d90c7a9",
+    "amount": 10,
+    "type": "expense",
+    "category": "Food",
+    "description": "Siraj Ahmad - Pav for lunch on sunday",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-05T13:06:00.000Z"
+  },
+  {
+    "id": "e7c31834-407f-41dc-9fa5-284411b4f1aa",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "NMMTTurbe C3216 - Fare for bus",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-07T17:17:00.000Z"
+  },
+  {
+    "id": "cb6220f7-e93b-46d3-b7d4-4baad10f158e",
+    "amount": 30,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "SAMEER KASAMALI MOMIN - Sugar cane juice and cash at shilphata",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-07T17:24:00.000Z"
+  },
+  {
+    "id": "14d55fd4-bd68-4fb1-b1dd-1318476594c3",
+    "amount": 6000,
+    "type": "income",
+    "category": "Refund",
+    "description": "MURTUZA ISMAIL SHAIKH - return",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-08T08:58:00.000Z"
+  },
+  {
+    "id": "a061c4ad-7a69-4dec-b346-a28f30b50673",
+    "amount": 5300,
+    "type": "expense",
+    "category": "Other",
+    "description": "Sanjari Ceramics Enterprises - 40 sack reti 5 sack cement and 5 sack khafi",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-08T09:56:00.000Z"
+  },
+  {
+    "id": "19903a09-db84-4439-9edf-d8cd8f1509f4",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHANALAM - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-08T10:33:00.000Z"
+  },
+  {
+    "id": "d0b3edf0-8d7f-40cc-ba5a-02733dfbd934",
+    "amount": 900,
+    "type": "income",
+    "category": "Salary",
+    "description": "MUSTAFA ISMAIL SHAIKH - Payment from PhonePe",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-08T11:24:00.000Z"
+  },
+  {
+    "id": "8cfd3abe-0bd3-4b0a-8622-369fdd37274a",
+    "amount": 5000,
+    "type": "expense",
+    "category": "Other",
+    "description": "MOHDROMAN ASHRAF SHA - Toroman",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-08T11:38:00.000Z"
+  },
+  {
+    "id": "363e6a31-ff67-4689-b3ee-b6a1dce569b1",
+    "amount": 2000,
+    "type": "expense",
+    "category": "Other",
+    "description": "SAGAR LAHARSINGH RAJPUT - Marble and kadappa",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-08T14:13:00.000Z"
+  },
+  {
+    "id": "e605e837-5720-432e-b832-5a275c02fc24",
+    "amount": 20,
+    "type": "expense",
+    "category": "Groceries",
+    "description": "SAHABUDDIN - Gobhi From Market",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-08T21:31:00.000Z"
+  },
+  {
+    "id": "5ece52ae-4b82-4f64-b159-ab577c233548",
+    "amount": 100,
+    "type": "expense",
+    "category": "Fuel",
+    "description": "Virani automobiles - Petrol",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-08T21:46:00.000Z"
+  },
+  {
+    "id": "55111224-a9b0-43e1-b086-906a380188a5",
+    "amount": 40,
+    "type": "expense",
+    "category": "Other",
+    "description": "Salman - Nanchap at talao pai",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-08T21:48:00.000Z"
+  },
+  {
+    "id": "1d92ca5d-4966-4fb9-bcee-51c506608958",
+    "amount": 10,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "NASEEB IDEESH KHAN - Sugar came juice at talai pali",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-08T21:56:00.000Z"
+  },
+  {
+    "id": "62524e52-71d5-4900-8442-50ae7be56046",
+    "amount": 500,
+    "type": "expense",
+    "category": "Dairy",
+    "description": "PANDEY VINAYKUMAR SHOBHNATH - Paid for Milk So remains 647",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-08T22:14:00.000Z"
+  },
+  {
+    "id": "4f7caf33-219c-457b-b0b5-19257074e373",
+    "amount": 10,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "SHANALAM - Big cola from shanu store",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-08T23:59:00.000Z"
+  },
+  {
+    "id": "02f97d3e-792e-4659-8990-79b1e6108a02",
+    "amount": 15,
+    "type": "expense",
+    "category": "Chai",
+    "description": "SHAIKH ENTERPRISES - Chai for mistry",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-09T12:06:00.000Z"
+  },
+  {
+    "id": "059c935c-7548-4d6f-a909-07589a3b2cce",
+    "amount": 10,
+    "type": "expense",
+    "category": "Chai",
+    "description": "MOHAMMED - Chai for me at khwaja palace",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-09T12:10:00.000Z"
+  },
+  {
+    "id": "6df4d734-0678-4625-9133-24ce835ccbe5",
+    "amount": 10,
+    "type": "expense",
+    "category": "Chai",
+    "description": "MOHAMMED - Chai for sadqa at khwaja palace",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-09T12:13:00.000Z"
+  },
+  {
+    "id": "ffdf54a4-fe70-40ee-be95-86d7c96655ab",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "MEHTA HARDWARE - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-10T09:52:00.000Z"
+  },
+  {
+    "id": "44c6b5fd-c1dd-441d-b0f1-d0d251e1ae36",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "MEHTA HARDWARE - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-10T09:53:00.000Z"
+  },
+  {
+    "id": "eaf6faab-3ec9-464e-a2f8-3822dd7d9fcf",
+    "amount": 5,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHAIKH SAYARA BANOO - Shampoo",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-10T13:29:00.000Z"
+  },
+  {
+    "id": "6a099852-e973-4330-8257-625efb30e483",
+    "amount": 5,
+    "type": "expense",
+    "category": "Other",
+    "description": "Mohammad Haseem - Addistional for dahi wada",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-10T14:55:00.000Z"
+  },
+  {
+    "id": "e5ad5ffa-dc63-4f59-8015-e1554e692c76",
+    "amount": 25,
+    "type": "expense",
+    "category": "Other",
+    "description": "Mohammad Haseem - Dahi wada",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-10T14:55:00.000Z"
+  },
+  {
+    "id": "2fc7832f-7b34-4115-b90c-792881f5b8d9",
+    "amount": 5000,
+    "type": "income",
+    "category": "Udhar_Back",
+    "description": "MOHDROMAN ASHRAF SHA - All clear ty",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-10T17:40:00.000Z"
+  },
+  {
+    "id": "5ccf4f18-d0b2-479a-8fff-c1fef9e25cb1",
+    "amount": 30,
+    "type": "expense",
+    "category": "Food",
+    "description": "New Mastana Bakery N General - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-11T00:07:00.000Z"
+  },
+  {
+    "id": "85b3b282-7489-4341-bdb9-a3a2bac8599a",
+    "amount": 60,
+    "type": "expense",
+    "category": "Other",
+    "description": "1 - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-11T10:57:00.000Z"
+  },
+  {
+    "id": "9b9c61bb-6a7f-4029-b4b9-f56077b6b5ce",
+    "amount": 15,
+    "type": "expense",
+    "category": "Other",
+    "description": "MANOJ VIJAYSING RAJPUT - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-11T11:04:00.000Z"
+  },
+  {
+    "id": "8e11e153-8564-4fd8-8cce-079e0e37226a",
+    "amount": 25,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHANALAM - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-11T11:10:00.000Z"
+  },
+  {
+    "id": "08eda3be-7dbc-4a58-a7c5-c924ed913cb7",
+    "amount": 10,
+    "type": "expense",
+    "category": "Food",
+    "description": "I K GENERAL STORE - Pav for lunch at khwaja palace",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-11T12:29:00.000Z"
+  },
+  {
+    "id": "cc88d95d-9fb4-4660-89c2-25f6a1ae32e4",
+    "amount": 10,
+    "type": "expense",
+    "category": "Chai",
+    "description": "MOHD YASIN - Chai from altruist",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-11T17:15:00.000Z"
+  },
+  {
+    "id": "bd3323e8-27f3-47e4-b671-4603aab8a7fb",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "CHOADHARI RAJU SURESH - Fare rikshaw from stn to dargah galli",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-12T09:54:00.000Z"
+  },
+  {
+    "id": "fa856350-80ae-41fa-9b99-506cb6ae843a",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Mr MOHD SUHEL BADIR KHAN - Fate of rikshaw from dargah to stn",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-12T10:20:00.000Z"
+  },
+  {
+    "id": "2211a99f-b494-4664-9ffc-4342896f2c37",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "Mangesh S Kale - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-12T12:15:00.000Z"
+  },
+  {
+    "id": "a6d8e211-708b-4c8c-b7d7-ae4d6c47dd9f",
+    "amount": 25,
+    "type": "expense",
+    "category": "Food",
+    "description": "Lokesh - Lassi nearby mumbra restaurant",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-12T13:52:00.000Z"
+  },
+  {
+    "id": "da00de84-baac-468d-b81c-8756a79e0b02",
+    "amount": 60,
+    "type": "expense",
+    "category": "Other",
+    "description": "RAHUL SEKH - Straw berry for me andasharib",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-12T17:09:00.000Z"
+  },
+  {
+    "id": "2012d006-f437-4645-932d-95c8a88b1e66",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHAIKH SAYARA BANOO - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-13T11:08:00.000Z"
+  },
+  {
+    "id": "d0191d37-ea6d-4086-a228-e31b2d0709a1",
+    "amount": 1100,
+    "type": "expense",
+    "category": "Other",
+    "description": "Jaideep Singh Chundawat - Paint",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-13T11:58:00.000Z"
+  },
+  {
+    "id": "37ef4e9c-fe02-4d85-abb0-ff43a3a861c7",
+    "amount": 700,
+    "type": "expense",
+    "category": "Other",
+    "description": "Biradar Alfiya Modin Patel - For formRoman and me",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-13T13:02:00.000Z"
+  },
+  {
+    "id": "d91dbc16-d4e3-4638-9612-f2a8038ec93a",
+    "amount": 155,
+    "type": "expense",
+    "category": "Food",
+    "description": "Jim Jim Hotel Restaurant 2 - Boti roti",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-13T15:57:00.000Z"
+  },
+  {
+    "id": "9e14d32c-3930-41ca-b27e-ae213cce7d80",
+    "amount": 15,
+    "type": "expense",
+    "category": "Other",
+    "description": "NOOR MO - Lsi",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-13T15:58:00.000Z"
+  },
+  {
+    "id": "6105665a-e4f5-47b5-9466-d31f24f5e0f4",
+    "amount": 300,
+    "type": "income",
+    "category": "Other",
+    "description": "MOHD ROMAN ASHRAF SHAIKH - UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-13T15:59:00.000Z"
+  },
+  {
+    "id": "52168fff-4786-4cb4-b943-383bdb2e0a6c",
+    "amount": 100,
+    "type": "income",
+    "category": "Other",
+    "description": "SHASHANK CHATUR PATEL - UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-13T20:58:00.000Z"
+  },
+  {
+    "id": "49201491-b873-4ceb-a2ac-04a0b567ab7c",
+    "amount": 477,
+    "type": "expense",
+    "category": "Fuel",
+    "description": "MOMIN PETROLEUM - Petrol",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-13T22:21:00.000Z"
+  },
+  {
+    "id": "306746a5-154c-434b-8275-b0241a76fec1",
+    "amount": 476,
+    "type": "income",
+    "category": "Other",
+    "description": "MOHDROMAN ASHRAF SHA - UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-13T22:22:00.000Z"
+  },
+  {
+    "id": "ce329ec1-ecb9-4102-8cbe-aa54dcccfd12",
+    "amount": 535,
+    "type": "transfer",
+    "category": "Transfer",
+    "description": "Self Transferred to, - Paying half for paint",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-14T10:12:00.000Z"
+  },
+  {
+    "id": "945b54f1-3264-47c6-9ba3-34587ac5cba4",
+    "amount": 15,
+    "type": "expense",
+    "category": "Food",
+    "description": "New Famous Bakery - Pav fr lunch",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-14T12:57:00.000Z"
+  },
+  {
+    "id": "ac25130a-73b8-4454-a347-e67c00119501",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "ALTAF KANDHAL - Ice cream cone",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-14T23:20:00.000Z"
+  },
+  {
+    "id": "cd2105db-ed5e-483f-9012-9c290b8521d4",
+    "amount": 35,
+    "type": "expense",
+    "category": "Dairy",
+    "description": "MOHD YASIN - Falooda from Alstruisy",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-15T16:04:00.000Z"
+  },
+  {
+    "id": "36758d06-51ff-43dd-bf78-0f4de69f8f6e",
+    "amount": 50,
+    "type": "expense",
+    "category": "Other",
+    "description": "NILESH VASANT GOLE - Pani puri",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-15T18:46:00.000Z"
+  },
+  {
+    "id": "b3d5ebd7-9a30-493b-89a2-1409b352d04a",
+    "amount": 5,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHAIKH SAYARA BANOO - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T09:18:00.000Z"
+  },
+  {
+    "id": "f550e0ad-99a7-452c-a3f4-7243118a7a1d",
+    "amount": 6000,
+    "type": "income",
+    "category": "Other",
+    "description": "ANSARI MOHAMMAD HAJI HUSAIN MOHAMMAD GAYASUDDIN - Sent using Paytm UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T09:26:00.000Z"
+  },
+  {
+    "id": "ae218417-75e4-4501-9650-fa1f089f3994",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHANALAM - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T10:14:00.000Z"
+  },
+  {
+    "id": "ca5ae9b2-ea03-4105-8d96-c51a2169df83",
+    "amount": 20,
+    "type": "expense",
+    "category": "Transport",
+    "description": "MURSEED . - Fare for college riskhaw",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T11:04:00.000Z"
+  },
+  {
+    "id": "29b39dda-1f41-4c99-8ce6-ca6fe298b07c",
+    "amount": 170,
+    "type": "expense",
+    "category": "Stationery",
+    "description": "CHANDIWALA MOHAMMED JAVID ANWAR - Collegedocs print chargea",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T12:04:00.000Z"
+  },
+  {
+    "id": "bda916be-2da1-4132-b17a-dc9b62d2b127",
+    "amount": 44,
+    "type": "expense",
+    "category": "Other",
+    "description": "CHANDIWALA MOHAMMED JAVID ANWAR - For rush",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T13:29:00.000Z"
+  },
+  {
+    "id": "844da02e-40ee-492e-aef3-2bb91c30b54a",
+    "amount": 30,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Ayesha Raees Shaikh - For fair rikshaw and juice",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T13:58:00.000Z"
+  },
+  {
+    "id": "96cf25e0-dc20-40bc-9458-111c1f4a6a5a",
+    "amount": 30,
+    "type": "income",
+    "category": "Other",
+    "description": "Ayesha Raees Shaikh - Paid securely via FamApp",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T14:06:00.000Z"
+  },
+  {
+    "id": "d7ad9e48-740d-4f9c-8650-45253912fe2d",
+    "amount": 30,
+    "type": "expense",
+    "category": "Other",
+    "description": "Ayesha Raees Shaikh - Return to ayesh as she returned",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T14:07:00.000Z"
+  },
+  {
+    "id": "d7049e71-07d2-4f37-93da-159b5318a341",
+    "amount": 30,
+    "type": "expense",
+    "category": "Other",
+    "description": "Ayesha Raees Shaikh - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T14:08:00.000Z"
+  },
+  {
+    "id": "f2b5f490-3dbb-4e9a-afd0-da6c3d87f248",
+    "amount": 30,
+    "type": "income",
+    "category": "Other",
+    "description": "Ayesha Raees Shaikh - Paid securely via FamApp",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T14:08:00.000Z"
+  },
+  {
+    "id": "02b054c0-7502-473c-8323-eaf75db69dce",
+    "amount": 30,
+    "type": "income",
+    "category": "Other",
+    "description": "Ayesha Raees Shaikh - Paid securely via FamApp",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T14:12:00.000Z"
+  },
+  {
+    "id": "7954053c-9a64-45fd-8401-6fe94b499f59",
+    "amount": 14500,
+    "type": "income",
+    "category": "Other",
+    "description": "MOHD SULAIMAN KHAN - UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T14:31:00.000Z"
+  },
+  {
+    "id": "2a929c99-5eb4-435e-8701-6b0cc1545091",
+    "amount": 10,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways Ticketing - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T16:32:00.000Z"
+  },
+  {
+    "id": "9135de9d-5986-4b1e-acc1-3c96efc6b471",
+    "amount": 15,
+    "type": "expense",
+    "category": "Other",
+    "description": "VIKAS GAHININATH SHINDE - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T17:06:00.000Z"
+  },
+  {
+    "id": "97508ee3-5d07-4e48-b2a4-4195b8c79465",
+    "amount": 20,
+    "type": "income",
+    "category": "Other",
+    "description": "SHASHANK CHATUR PATEL - UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-16T20:09:00.000Z"
+  },
+  {
+    "id": "a1e12e5a-a0d6-46ae-bb99-0f883481298d",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHANALAM - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T09:13:00.000Z"
+  },
+  {
+    "id": "682b9d1a-57d9-49f0-bbb6-a40049a4b545",
+    "amount": 150,
+    "type": "expense",
+    "category": "Other",
+    "description": "NOOR MOHAMMAD JAFAR MOHAMMAD - For ladder",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T10:26:00.000Z"
+  },
+  {
+    "id": "57bcdc26-a8bf-42a8-8418-3f53224abb17",
+    "amount": 15,
+    "type": "expense",
+    "category": "Other",
+    "description": "KHASHIM SAIDAWALE - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T10:32:00.000Z"
+  },
+  {
+    "id": "fb2a9022-22db-41ea-b386-5b74cc751872",
+    "amount": 30,
+    "type": "income",
+    "category": "Other",
+    "description": "Ayesha Raees Shaikh - Paid securely via FamApp",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T10:39:00.000Z"
+  },
+  {
+    "id": "b164d6c5-c9fb-4c13-a7ca-149e8266654e",
+    "amount": 330,
+    "type": "expense",
+    "category": "Other",
+    "description": "Ayesha Raees Shaikh - For paying to tasmiya for sulaieman",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T10:39:00.000Z"
+  },
+  {
+    "id": "54dea38f-40fa-489b-a928-a21f22a121c6",
+    "amount": 14400,
+    "type": "expense",
+    "category": "Other",
+    "description": "M S COLLEGE - Pay to Merchant",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T11:05:00.000Z"
+  },
+  {
+    "id": "94625dfd-8579-4538-84e1-868203dd60de",
+    "amount": 14400,
+    "type": "expense",
+    "category": "Other",
+    "description": "M S COLLEGE - Pay to Merchant",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T11:38:00.000Z"
+  },
+  {
+    "id": "478f0550-5d30-4ed8-be8c-6f95ac9e2e5e",
+    "amount": 100,
+    "type": "expense",
+    "category": "Food",
+    "description": "Jim Jim Hotel Restaurant 2 - Rice and water bottle",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T17:08:00.000Z"
+  },
+  {
+    "id": "7b47883c-a3f5-4411-8f22-4726e6a6b829",
+    "amount": 40,
+    "type": "expense",
+    "category": "Other",
+    "description": "MOHDROMAN ASHRAF SHA - Al cleared roman",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T17:09:00.000Z"
+  },
+  {
+    "id": "b97cff71-ceef-4258-be28-730a0afce270",
+    "amount": 40,
+    "type": "expense",
+    "category": "Other",
+    "description": "MOHDROMAN ASHRAF SHA - For dahi puri",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T20:17:00.000Z"
+  },
+  {
+    "id": "e00775bb-c607-47d9-b127-ecbc527dc6e1",
+    "amount": 10,
+    "type": "expense",
+    "category": "Food",
+    "description": "Hotel_Ashirwad_ - Water bottle",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T20:18:00.000Z"
+  },
+  {
+    "id": "1531dca6-29a4-4616-81a0-22351f698141",
+    "amount": 315,
+    "type": "income",
+    "category": "Other",
+    "description": "MOHD SULAIMAN KHAN - UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T21:44:00.000Z"
+  },
+  {
+    "id": "e59371b9-fa1a-4e01-93cc-c1b2d9cda206",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "Koshal Singh - Pepsi",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-17T22:54:00.000Z"
+  },
+  {
+    "id": "e92a600f-6b3f-4094-88c6-face456ab41a",
+    "amount": 20,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Sablu Idris Khan - Fae rikshawfeom mumbra t kadar palace",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-18T12:27:00.000Z"
+  },
+  {
+    "id": "f568d660-1d86-42d8-b4c6-47f9bb671704",
+    "amount": 10,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "DINA RAM KHILERI - Water bottle",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-18T12:31:00.000Z"
+  },
+  {
+    "id": "3362b3f8-1baa-46e4-b416-5a0d8a5acf4b",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "ANAND SINGH SOLANKI - Pepsi",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-18T18:11:00.000Z"
+  },
+  {
+    "id": "c69c51e8-c605-432f-8d19-8cc141af9347",
+    "amount": 32,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHANALAM - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-19T09:04:00.000Z"
+  },
+  {
+    "id": "80e6c929-644b-4b64-ad88-c298f5948201",
+    "amount": 245,
+    "type": "expense",
+    "category": "Other",
+    "description": "PRAKASH GANESHRAM BHATIA - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-19T10:13:00.000Z"
+  },
+  {
+    "id": "ddb2047f-1f85-4f8c-a9ba-989292f4fff7",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHAIKH SAYARA BANOO - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-19T11:47:00.000Z"
+  },
+  {
+    "id": "f6fee467-86ab-42ce-9cf0-a191e704cf99",
+    "amount": 20,
+    "type": "expense",
+    "category": "Food",
+    "description": "Jim Jim Hotel Restaurant 2 - Water bottle for me and payal",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-19T17:27:00.000Z"
+  },
+  {
+    "id": "00911cc1-26f4-4c3e-a010-26f4afe9f88c",
+    "amount": 30,
+    "type": "expense",
+    "category": "Dairy",
+    "description": "MOHD YASIN - Lassi",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-19T17:31:00.000Z"
+  },
+  {
+    "id": "a892df9a-97db-4f21-82ce-fe88e4f24ac0",
+    "amount": 512,
+    "type": "income",
+    "category": "Other",
+    "description": "MOHDROMAN ASHRAF SHA - UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-19T23:08:00.000Z"
+  },
+  {
+    "id": "5cc86879-9d96-425d-b4c1-518665bdd824",
+    "amount": 512.13,
+    "type": "expense",
+    "category": "Fuel",
+    "description": "MOMIN PETROLEUM - For petrol",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-19T23:08:00.000Z"
+  },
+  {
+    "id": "161dd431-3289-4d84-a99d-e2491aca2e3e",
+    "amount": 9.7,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways UTS - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-20T12:30:00.000Z"
+  },
+  {
+    "id": "78ec70de-93d8-46b5-925e-b3958ce3f695",
+    "amount": 22,
+    "type": "expense",
+    "category": "Transport",
+    "description": "NMMTTurbe C3815 - Bus fair",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-20T12:55:00.000Z"
+  },
+  {
+    "id": "91f82220-6ef0-4f94-9edd-77df6fb5c653",
+    "amount": 30,
+    "type": "expense",
+    "category": "Dairy",
+    "description": "MOHD YASIN - Lassi",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-20T16:41:00.000Z"
+  },
+  {
+    "id": "73690269-3ac5-4d19-8360-48154d6052d8",
+    "amount": 70,
+    "type": "expense",
+    "category": "Other",
+    "description": "JAWED ALAM MASLAHUDDIN SHAIKH - Pay to BharatPe Merchant",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-20T20:32:00.000Z"
+  },
+  {
+    "id": "50cac8ad-500a-4c0b-9023-b072d9597934",
+    "amount": 2,
+    "type": "expense",
+    "category": "Other",
+    "description": "Google Play - null",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-21T11:10:00.000Z"
+  },
+  {
+    "id": "a6b9cb7c-8b59-40ac-b500-c6ee03063d6a",
+    "amount": 22,
+    "type": "expense",
+    "category": "Other",
+    "description": "NMMTTurbe C3141 - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-21T17:00:00.000Z"
+  },
+  {
+    "id": "cc5107a3-edbc-4753-a901-0b62ae4ea71b",
+    "amount": 10,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "Dipak Kumar - Sugarcane juice",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-21T17:31:00.000Z"
+  },
+  {
+    "id": "4565e5b2-4316-41ee-841a-afd5e0ff5adb",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "SIDDHARTH DATTATRAY GIRI - For fIe from mbp to gahnasoli stn",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-21T21:44:00.000Z"
+  },
+  {
+    "id": "b90764de-fc82-43b3-ab0d-9b7086492967",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "Mohd Ammar Mukadam - Char",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-21T22:08:00.000Z"
+  },
+  {
+    "id": "8d28db3f-ee9a-4cbc-809a-58662c811c1f",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "Kn solanki and sons - Soda",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-21T22:08:00.000Z"
+  },
+  {
+    "id": "a1767cf0-9356-4642-b929-5771069135cd",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "Mr SAIF ALI MUBARAK ALI SHAIKH - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-21T23:02:00.000Z"
+  },
+  {
+    "id": "e4a7a41c-275d-4560-aa63-9da35b4da887",
+    "amount": 20,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "SHANALAM - Pav and big cola feomshanu store",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-22T12:02:00.000Z"
+  },
+  {
+    "id": "dc919c77-da73-4ba1-9b3c-2f9f802a2ded",
+    "amount": 10,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways Ticketing - Ghandoli ticekt",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-22T12:09:00.000Z"
+  },
+  {
+    "id": "3a6ffad1-632b-446d-a6eb-4c1deca0c489",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "NAGESH SHANKAR BARIK - R fare from g stn to MBP",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-22T12:53:00.000Z"
+  },
+  {
+    "id": "e79a3511-3297-4fba-b052-045c8271a5f7",
+    "amount": 20,
+    "type": "expense",
+    "category": "Food",
+    "description": "MOHD YASIN - Mala cake",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-22T17:26:00.000Z"
+  },
+  {
+    "id": "05b156b4-4be2-47b0-94ee-e9982014e037",
+    "amount": 160,
+    "type": "expense",
+    "category": "Other",
+    "description": "Shahzad Qureshi - For sirt",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-23T12:42:00.000Z"
+  },
+  {
+    "id": "4de9c2b7-c988-4f5b-826e-12b78185bd4f",
+    "amount": 10,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "Abu Faisal Kamal Qureshi - Apple juice atstation mbr",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-23T12:46:00.000Z"
+  },
+  {
+    "id": "7504e076-d191-460d-894f-a0d33c8761fa",
+    "amount": 40,
+    "type": "expense",
+    "category": "Food",
+    "description": "NILESH VASANT GOLE - Dahi puri as lunch",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-23T17:12:00.000Z"
+  },
+  {
+    "id": "4d6300a5-9d3a-49d7-ab24-a3c4727141b6",
+    "amount": 10,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "ROHINI SUNIL NAIR - Water bottle",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-23T17:15:00.000Z"
+  },
+  {
+    "id": "49dc4178-0fa6-4fea-bdfa-e647e61c12dc",
+    "amount": 5,
+    "type": "expense",
+    "category": "Other",
+    "description": "ALTAF KANDHAL - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-24T11:34:00.000Z"
+  },
+  {
+    "id": "233e645d-372a-4a2e-bfa0-67b37ed2a3cc",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "ADIL SHAH - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-24T12:40:00.000Z"
+  },
+  {
+    "id": "d8689448-fda2-465d-8250-b20d1725c283",
+    "amount": 150,
+    "type": "expense",
+    "category": "Food",
+    "description": "Jim Jim Hotel Restaurant 2 - Tripple Rice and coldrink from jim jim hotel",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-24T17:08:00.000Z"
+  },
+  {
+    "id": "5a9d400e-a7e6-49a7-bc62-986405bc09e3",
+    "amount": 10,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "PANDEY VINAYKUMAR SHOBHNATH - Water bottle at pappu uncle",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-24T22:40:00.000Z"
+  },
+  {
+    "id": "940bf4dc-c201-4749-8ee0-8209ee806523",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "ABHAY MANOJ KUMAR YADAV - Pad to abhay for rikshaw fare from gns to mbp",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-25T13:11:00.000Z"
+  },
+  {
+    "id": "b7fabc1d-1d65-40bb-8e6f-b2c96ce3c814",
+    "amount": 30,
+    "type": "expense",
+    "category": "Food",
+    "description": "Jim Jim Hotel Restaurant 2 - Sprote and water bottle from jimjim",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-25T16:18:00.000Z"
+  },
+  {
+    "id": "4db7350b-6433-4671-b5eb-d395ffe67ae2",
+    "amount": 15,
+    "type": "expense",
+    "category": "Other",
+    "description": "MOHD YASIN - Tea and chakli from alt canteen",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-25T18:21:00.000Z"
+  },
+  {
+    "id": "25875d41-7f6b-44c6-a6cc-4821c9ca56e8",
+    "amount": 12,
+    "type": "expense",
+    "category": "Medicine",
+    "description": "MARYAM CHEMIST AND DRUGGIST - Lahori zeera and paracetamol",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-25T23:10:00.000Z"
+  },
+  {
+    "id": "cc05f6d8-f8ff-4db6-9c99-0284005d9bb3",
+    "amount": 15,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHAIKH SAYARA BANOO - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-26T11:55:00.000Z"
+  },
+  {
+    "id": "38409f19-559c-46c6-b49d-a115a0d0e50c",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "LAXMAN VERMA SO BHUJARAT KAHAR - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-26T12:57:00.000Z"
+  },
+  {
+    "id": "eb7d3946-d188-4528-a137-056e64e4077c",
+    "amount": 50,
+    "type": "expense",
+    "category": "Other",
+    "description": "KHAN WASIM AMIRULHAS - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-26T13:01:00.000Z"
+  },
+  {
+    "id": "3cd9b28f-b282-4bf0-9c8a-f89cb211d56d",
+    "amount": 10,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "Siraj Ahmad - Water bottle at jeevan baugh naks",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-26T13:47:00.000Z"
+  },
+  {
+    "id": "42982e72-628a-4099-9fcc-d15b78063100",
+    "amount": 230,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHAMSHER KHAN - Biryani for Sameer",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-26T14:06:00.000Z"
+  },
+  {
+    "id": "2d495669-e40b-4931-a0d2-11eb4713810b",
+    "amount": 230,
+    "type": "income",
+    "category": "Salary",
+    "description": "SAMEER HAIDER RIZVI - Payment from PhonePe",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-26T14:37:00.000Z"
+  },
+  {
+    "id": "99c3fa78-dde0-4e02-870e-6316dd649ea3",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "KHAN MOHAMMED REHAN ATAULLA - Paid to rehan for rikshaw fare on lent",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-26T22:11:00.000Z"
+  },
+  {
+    "id": "f7a6597d-ef61-4d07-9cb7-a306a94dc23a",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "PRAKASH GANESHRAM BHATIA - Zip tag",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-27T12:37:00.000Z"
+  },
+  {
+    "id": "1f49fd23-0589-4463-a1ac-e699ed04c48b",
+    "amount": 10,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways Ticketing - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-27T12:43:00.000Z"
+  },
+  {
+    "id": "58926de0-f9b5-4f73-91f2-29605dacfb74",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "BHOITE MANOJ RAMCHANDRA - Fare rik",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-27T13:23:00.000Z"
+  },
+  {
+    "id": "5d7266c3-dac7-4d83-8758-01cdcff179d3",
+    "amount": 10,
+    "type": "expense",
+    "category": "Food",
+    "description": "Hotel_Ashirwad_ - Water bottle",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-27T15:51:00.000Z"
+  },
+  {
+    "id": "ae65344a-175b-41a8-b94f-2bbec7d475a2",
+    "amount": 15,
+    "type": "expense",
+    "category": "Chai",
+    "description": "MOHD YASIN - Chai and buiscuiy from altruist",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-27T18:52:00.000Z"
+  },
+  {
+    "id": "ab9d28e6-4eec-4915-a273-26498a399900",
+    "amount": 20,
+    "type": "expense",
+    "category": "Food",
+    "description": "Hotel_Ashirwad_ - Water borrle",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-27T19:01:00.000Z"
+  },
+  {
+    "id": "71c1b2be-a13e-4bd6-b7de-ca1d37be261b",
+    "amount": 10,
+    "type": "expense",
+    "category": "Transport",
+    "description": "JAGANNATH GUJABA KADAM - Rok fare mbp to gns",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-27T22:16:00.000Z"
+  },
+  {
+    "id": "56139ebc-39c4-4100-8f3c-048f46a723a0",
+    "amount": 1,
+    "type": "income",
+    "category": "Other",
+    "description": "ARSHAD HUSAIN AMIR HUSAIN SAYYED - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-27T22:19:00.000Z"
+  },
+  {
+    "id": "9d0c678b-1a2e-4c9a-ace2-e69c94de2fd7",
+    "amount": 1,
+    "type": "expense",
+    "category": "Other",
+    "description": "ARSHAD HUSAIN AMIR HUSAIN SAYYED - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-27T22:24:00.000Z"
+  },
+  {
+    "id": "c14b1005-8cc4-4d97-889f-98662c53adf1",
+    "amount": 1,
+    "type": "expense",
+    "category": "Other",
+    "description": "ARSHAD HUSAIN AMIR HUSAIN SAYYED - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-27T22:27:00.000Z"
+  },
+  {
+    "id": "69e14979-7fd3-4eeb-b5cd-09a02e73b11f",
+    "amount": 50,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHANALAM - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-28T09:01:00.000Z"
+  },
+  {
+    "id": "6620fbe9-5b9c-4057-8641-4ffbc834ff93",
+    "amount": 9.7,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways UTS - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-28T12:16:00.000Z"
+  },
+  {
+    "id": "30da6a9e-70fa-4041-b2d0-8715e9da5d47",
+    "amount": 15,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "Chunni - Water bottle at mbr stn",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-28T12:18:00.000Z"
+  },
+  {
+    "id": "ea56a40e-2b5b-4b78-9334-3fb55e2b2930",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "TANAJI BALIBUVA PURI - Rik fare",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-28T12:57:00.000Z"
+  },
+  {
+    "id": "cd89bb71-159a-4f50-8fd6-eb905735440f",
+    "amount": 35,
+    "type": "expense",
+    "category": "Other",
+    "description": "NILESH VASANT GOLE - Swv puri at altruist",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-28T20:40:00.000Z"
+  },
+  {
+    "id": "32a29301-3857-481e-9913-b7380da7c608",
+    "amount": 20,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "Ali Ahmed Iqbal Sayyed - Juice",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-28T23:04:00.000Z"
+  },
+  {
+    "id": "107931b9-dde6-4c00-b1e6-e9fad62fae00",
+    "amount": 20,
+    "type": "expense",
+    "category": "Food",
+    "description": "HYDRABAD EGGS CENTRE - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-29T11:39:00.000Z"
+  },
+  {
+    "id": "33057c53-3135-4b74-bd88-37dea0816b6b",
+    "amount": 15,
+    "type": "expense",
+    "category": "Food",
+    "description": "SHANALAM - Pav",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-29T12:10:00.000Z"
+  },
+  {
+    "id": "90ea88c7-9d70-435d-a8c4-714372a7c73f",
+    "amount": 30,
+    "type": "expense",
+    "category": "StreetFood",
+    "description": "Farman - Shawrma",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-29T19:48:00.000Z"
+  },
+  {
+    "id": "dc4fc7ca-d7a1-4434-9773-66459179371c",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "RAVISHANKAR VARMA - Chikki",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-29T19:51:00.000Z"
+  },
+  {
+    "id": "c8d3e2b1-ad96-463f-a98b-94f996b479bc",
+    "amount": 10,
+    "type": "expense",
+    "category": "Transport",
+    "description": "PANDURANG SHIVAJI GAIKWAD - Rik fare",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-29T22:32:00.000Z"
+  },
+  {
+    "id": "74e5eec2-ab1b-402a-89c9-9b4ad0206c94",
+    "amount": 15,
+    "type": "expense",
+    "category": "Food",
+    "description": "SHANALAM - Pav",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-30T12:10:00.000Z"
+  },
+  {
+    "id": "3a5b8ae3-eec5-47a9-b0d1-ee5ec918ee58",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "VILAS YADAVRAO KAMBLE - Rik",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-30T12:56:00.000Z"
+  },
+  {
+    "id": "812a624f-a1c9-40c6-ba8c-bfde418a3f5d",
+    "amount": 30,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "RAHUL SEKH - Juice",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-30T20:56:00.000Z"
+  },
+  {
+    "id": "387eb76f-512d-447f-bbcf-5ca6f510064a",
+    "amount": 10,
+    "type": "expense",
+    "category": "Transport",
+    "description": "PRATHMESH VISHWANATH SHEJWAL - Rik fare",
+    "payment_method": "UPI",
+    "transaction_date": "2026-04-30T22:29:00.000Z"
+  },
+  {
+    "id": "6a5fc895-ff98-46d7-b6cd-c6f9794fc81b",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHANALAM - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-01T10:58:00.000Z"
+  },
+  {
+    "id": "8b2d219c-2116-4f88-b0cd-d47464020b8d",
+    "amount": 15,
+    "type": "expense",
+    "category": "Food",
+    "description": "SHANALAM - Pav",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-01T11:55:00.000Z"
+  },
+  {
+    "id": "0944a02d-d188-4fb4-a100-e5fd43ecea7b",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "Parvathamma - Chiku",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-01T12:09:00.000Z"
+  },
+  {
+    "id": "70d1d8d8-151c-437b-ac2d-686d9e81d21a",
+    "amount": 10,
+    "type": "expense",
+    "category": "Dairy",
+    "description": "SHREE SIDDHI VINAYAK DAIRY - Kulfi",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-01T19:52:00.000Z"
+  },
+  {
+    "id": "30219a8c-f655-4b6c-8c5c-cec1a3dbb187",
+    "amount": 20,
+    "type": "expense",
+    "category": "Transport",
+    "description": "NILESH ATMARAM PATIL - Rik fare abhay and me",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-01T22:16:00.000Z"
+  },
+  {
+    "id": "87a1d6c3-4ac1-4b19-bce1-ad7af8fda321",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "MOHAMMED - Warer borle",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-03T13:05:00.000Z"
+  },
+  {
+    "id": "a0cba935-c948-4d9f-8d7e-eb4b68724929",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "Sanjari Ceramics Enterprises - For reto",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-04T11:18:00.000Z"
+  },
+  {
+    "id": "10f33dba-6e23-4c3e-bbf5-1395abf50031",
+    "amount": 21,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "BALAJI MEDICAL - Ewater botleand crcine",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-04T15:37:00.000Z"
+  },
+  {
+    "id": "1a861faa-40a5-4176-9f29-59721fbafa70",
+    "amount": 46,
+    "type": "expense",
+    "category": "Chai",
+    "description": "Kurban Ali - Chai coffe",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-05T18:18:00.000Z"
+  },
+  {
+    "id": "29f74543-36a1-4f7e-9c74-06458ea94cc3",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHAIKH MOHSIN SHAIKH KARAMAT - For greespices",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-06T10:34:00.000Z"
+  },
+  {
+    "id": "931f9f68-0a8c-47c6-85e1-75c6e70bfe39",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "Rajan Jayswal - Payment made to Merchant",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-06T10:37:00.000Z"
+  },
+  {
+    "id": "e60f6068-0093-4a29-84fe-d21ac2cb8f0a",
+    "amount": 9.7,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways UTS - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-07T12:13:00.000Z"
+  },
+  {
+    "id": "eb15d8e3-9348-4c69-bf0e-2f39de7973fc",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "MOHAMMED SAUD MOHAMM - paid for rik fare",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-07T21:58:00.000Z"
+  },
+  {
+    "id": "61cfc79b-7101-4cee-be78-906e5a636986",
+    "amount": 15,
+    "type": "expense",
+    "category": "Other",
+    "description": "KHAN MOHAMMED REHAN ATAULLA - For shikanji t rehan",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-07T21:59:00.000Z"
+  },
+  {
+    "id": "5349e8d3-ada4-4620-a5d9-200b85191a1d",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "ARSHAD HUSAIN AMIR HUSAIN SAYYED - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-07T22:16:00.000Z"
+  },
+  {
+    "id": "784822ba-7400-4399-a885-9313365298fe",
+    "amount": 510,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "PANDEY VINAYKUMAR SHOBHNATH - Paif for milk and lemon juice",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-07T23:22:00.000Z"
+  },
+  {
+    "id": "b7b3bef5-e73d-4d2c-9cc0-5d51a1df9371",
+    "amount": 12,
+    "type": "expense",
+    "category": "Groceries",
+    "description": "SHANALAM - 3 burun from shanu store",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-08T06:09:00.000Z"
+  },
+  {
+    "id": "eeafcd7b-8dc9-47f5-ab23-ed1434e22cb1",
+    "amount": 5,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHANALAM - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-08T10:26:00.000Z"
+  },
+  {
+    "id": "263bd68a-63b1-46ce-99af-b51508c02c63",
+    "amount": 19.4,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways UTS - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-08T11:43:00.000Z"
+  },
+  {
+    "id": "ba69e886-bccc-420d-8877-09d6c3e98eae",
+    "amount": 20,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "MR MANGALPRABHAT MULCHAND PRAJAPATI - Lemon juice at ghatkopar",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-08T12:31:00.000Z"
+  },
+  {
+    "id": "bc7dee8b-14df-4e8e-a9eb-474b613aa674",
+    "amount": 50,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Abdullah Mohammed Sharif Shaikh - Rik fate ghatkopar",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-08T12:33:00.000Z"
+  },
+  {
+    "id": "fe12ff50-59aa-45bc-80bc-cf15130dc06f",
+    "amount": 12,
+    "type": "income",
+    "category": "Other",
+    "description": "SUJATA MANIK CHAVAN - UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-08T12:39:00.000Z"
+  },
+  {
+    "id": "7bb08ff6-d418-4737-ac2c-b741b48731d6",
+    "amount": 400,
+    "type": "expense",
+    "category": "Other",
+    "description": "JAIN PRAVEEN - For istri",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-08T18:16:00.000Z"
+  },
+  {
+    "id": "c851ccfe-a001-41d0-84e2-e11d694e4aff",
+    "amount": 4.85,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways UTS - Train ticket from CC to Kurls",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-08T21:07:00.000Z"
+  },
+  {
+    "id": "72917633-17da-42c1-a06a-62aed4fd774f",
+    "amount": 9.7,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways UTS - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-09T11:27:00.000Z"
+  },
+  {
+    "id": "d9709e8c-0b7a-4afe-9df7-089261f1b7c2",
+    "amount": 200,
+    "type": "expense",
+    "category": "Other",
+    "description": "AKHILESH RAVINDRA UPADHYAY - For material",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-09T18:41:00.000Z"
+  },
+  {
+    "id": "2d0ca6f0-25bf-48eb-8666-142c02bccb17",
+    "amount": 25,
+    "type": "expense",
+    "category": "Groceries",
+    "description": "SHANALAM - Lasi f shanu store",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-09T22:17:00.000Z"
+  },
+  {
+    "id": "a1979c5a-87b8-4c9b-8742-0b1c24dbb1fd",
+    "amount": 10,
+    "type": "expense",
+    "category": "Groceries",
+    "description": "ALTAF KANDHAL - Cone from store",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-09T23:09:00.000Z"
+  },
+  {
+    "id": "ff07cc44-9ea2-4c95-8347-29bfa76a38e5",
+    "amount": 38,
+    "type": "expense",
+    "category": "Dairy",
+    "description": "SHANALAM - Egg pav and frooti",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-10T11:55:00.000Z"
+  },
+  {
+    "id": "634f6d4d-1490-4069-afe7-f627aea2a00a",
+    "amount": 2,
+    "type": "expense",
+    "category": "Food",
+    "description": "SHANALAM - Addition for egg",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-10T11:56:00.000Z"
+  },
+  {
+    "id": "9d366b30-11f3-469d-adfa-0074a3fed97f",
+    "amount": 22,
+    "type": "expense",
+    "category": "Transport",
+    "description": "NMMT TURBE - Mahep ticket bus",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-10T12:54:00.000Z"
+  },
+  {
+    "id": "56ae6f9d-05b7-46d4-96b6-cabaf05b7734",
+    "amount": 30,
+    "type": "expense",
+    "category": "Dairy",
+    "description": "Mohammed - Lassi at latruis",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-10T17:32:00.000Z"
+  },
+  {
+    "id": "d624598c-796e-42e1-9906-c8b33d90a107",
+    "amount": 30,
+    "type": "expense",
+    "category": "Other",
+    "description": "Mohammed - Payed agan as again one was taken for lssi",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-10T17:40:00.000Z"
+  },
+  {
+    "id": "16280296-7a6a-4c0f-aa2d-9549e32822ed",
+    "amount": 20,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "MISHRA PAN SHOP - Buiscuit and water bottle",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-10T22:09:00.000Z"
+  },
+  {
+    "id": "6df41ca1-932c-4199-9288-e860485884de",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "WAHID JAHID SHAIKH - For goni to ansanti",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-11T11:27:00.000Z"
+  },
+  {
+    "id": "8bc973bd-710d-4229-9dee-053144897729",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "FARHAN KHAN - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-11T11:47:00.000Z"
+  },
+  {
+    "id": "a9fa23ce-fb4c-4495-992f-2047a16f7dbc",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "NASIM AHMAD - Rick fare",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-11T12:35:00.000Z"
+  },
+  {
+    "id": "c20dcf88-2445-4a71-a23a-e940c8c9c404",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "SOHAN HARISHCHANDRA RAM - For Rick fare to sholphata",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-11T12:42:00.000Z"
+  },
+  {
+    "id": "ccb678dc-6953-46ac-a6d3-a80ff798a60f",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "NMMTTurbe C741 - Bau fare",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-11T12:58:00.000Z"
+  },
+  {
+    "id": "ab494336-1f6c-4737-9e1d-8b7cc5ae301e",
+    "amount": 40,
+    "type": "expense",
+    "category": "Other",
+    "description": "ROHINI SUNIL NAIR - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-11T16:38:00.000Z"
+  },
+  {
+    "id": "b5f27d37-93fb-49bd-a4ea-2be683fd6a80",
+    "amount": 10,
+    "type": "expense",
+    "category": "Transport",
+    "description": "BALAJI VAIJNATH GOMNE - E fare",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-11T22:08:00.000Z"
+  },
+  {
+    "id": "80ffd299-e392-4e3d-89f9-052d9734f8f5",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHANALAM - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-12T11:08:00.000Z"
+  },
+  {
+    "id": "1242c395-894d-4eab-a441-a52f328f564f",
+    "amount": 9.7,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways UTS - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-12T12:16:00.000Z"
+  },
+  {
+    "id": "f61c387b-2bf2-4f74-a9ce-336c52373d46",
+    "amount": 9.7,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways UTS - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-13T11:56:00.000Z"
+  },
+  {
+    "id": "cacff46e-8df1-4463-93d1-2dfea6dde333",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "SANTOSH ARJUN URDI - Rick far",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-13T12:37:00.000Z"
+  },
+  {
+    "id": "9166740a-1939-438e-ae3e-737e21eac9aa",
+    "amount": 30,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "ROHINI SUNIL NAIR - Water chakli from altruist canteen",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-13T17:01:00.000Z"
+  },
+  {
+    "id": "f32dcf4f-5956-44cf-ad36-b916b4ae3e03",
+    "amount": 10,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "SHANALAM - Big cola",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-13T23:54:00.000Z"
+  },
+  {
+    "id": "2ebba3d0-ac55-437a-ab27-387e19c6bf34",
+    "amount": 20,
+    "type": "expense",
+    "category": "Food",
+    "description": "Shalu - 20 for pav to gathan uncle",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-14T08:26:00.000Z"
+  },
+  {
+    "id": "01251175-76e4-4d26-84d1-0b0626e76a7f",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHANALAM - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-14T11:27:00.000Z"
+  },
+  {
+    "id": "7e56ec28-a63c-4a52-a868-787e048b081a",
+    "amount": 50,
+    "type": "expense",
+    "category": "Other",
+    "description": "HABIBA ABDULSALAM SHAIKH - For donation",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-14T12:03:00.000Z"
+  },
+  {
+    "id": "e76299d9-6119-4fd2-8ff9-9948ea0536f3",
+    "amount": 9.7,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways UTS - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-14T12:12:00.000Z"
+  },
+  {
+    "id": "be27303b-c271-4c56-88b0-7a3e149081ed",
+    "amount": 15,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Tukaram Bhosale General Store - Paid for rikahawfare form Gansoli to MBP",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-14T12:54:00.000Z"
+  },
+  {
+    "id": "42f50d28-0c95-4ea6-b0f8-6c99f378b408",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "Mohammed - Tea",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-14T19:10:00.000Z"
+  },
+  {
+    "id": "5224ba14-54b7-4e81-9297-3122e44effda",
+    "amount": 9.7,
+    "type": "expense",
+    "category": "Transport",
+    "description": "Indian Railways UTS - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-15T11:49:00.000Z"
+  },
+  {
+    "id": "262a0c1e-58bc-41dc-9e85-3505d15c0515",
+    "amount": 10,
+    "type": "expense",
+    "category": "Chai",
+    "description": "Mohammed - Chai",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-15T16:32:00.000Z"
+  },
+  {
+    "id": "8beefa8b-c78b-4686-8bb5-d49e3063ca45",
+    "amount": 10,
+    "type": "expense",
+    "category": "Snacks",
+    "description": "ROHINI SUNIL NAIR - Water bottle",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-15T16:33:00.000Z"
+  },
+  {
+    "id": "811a06a8-6a24-42f2-9ae4-6e1a51b19875",
+    "amount": 35,
+    "type": "expense",
+    "category": "StreetFood",
+    "description": "SALMAN ABDUL SATTAR QURESHI - Nan Sandwich",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-15T23:20:00.000Z"
+  },
+  {
+    "id": "4d6bff04-da17-40ae-8b4f-2731086fc8a4",
+    "amount": 20,
+    "type": "expense",
+    "category": "Other",
+    "description": "SHANALAM - Paid via Navi UPI",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-16T09:28:00.000Z"
+  },
+  {
+    "id": "e19ca117-8e80-44e7-bbcb-a8f36d067399",
+    "amount": 50,
+    "type": "expense",
+    "category": "Other",
+    "description": "FAIYAZ FAROOQ MEMON - For detergent",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-16T09:52:00.000Z"
+  },
+  {
+    "id": "9c65ae81-8acc-4073-ac75-6d694d8aecbc",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "1 - Toothbursh",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-16T09:56:00.000Z"
+  },
+  {
+    "id": "104daabd-1bea-4fd5-aaaa-1cba0c961014",
+    "amount": 10,
+    "type": "expense",
+    "category": "Other",
+    "description": "MAHESH BALIRAM HEMKE - Xomb",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-16T10:00:00.000Z"
+  },
+  {
+    "id": "af6a3f70-d0ef-479f-977e-679016c8bd2b",
+    "amount": 150,
+    "type": "expense",
+    "category": "Other",
+    "description": "PRAKASH GANESHRAM BHATIA - Cock coupling and elbow",
+    "payment_method": "UPI",
+    "transaction_date": "2026-05-16T11:18:00.000Z"
+  }
+]
