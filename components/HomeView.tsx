@@ -1231,7 +1231,12 @@ const HomeView: React.FC<HomeViewProps> = ({ onNavigate, user, userProfile, expl
                 </div>
             </div>
 
-            <div className="mb-8 flex items-center justify-between">
+            <motion.div 
+                className="mb-8 flex items-center justify-between"
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4 }}
+            >
                 <div>
                     <h2 className="text-2xl font-bold text-neutral-800 dark:text-white">
                         {user ? `Hi ${userProfile?.full_name?.split(' ')[0] || user.user_metadata.full_name?.split(' ')[0] || 'User'}, Welcome Back` : 'Welcome to Ceaznet'}
@@ -1240,14 +1245,33 @@ const HomeView: React.FC<HomeViewProps> = ({ onNavigate, user, userProfile, expl
                         {user ? 'Here is what\'s happening today.' : 'Select an app to get started.'}
                     </p>
                 </div>
-            </div>
+            </motion.div>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5 md:gap-6 pb-10">
+            <motion.div 
+                className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 md:gap-6 pb-10"
+                initial="hidden"
+                animate="show"
+                variants={{
+                    hidden: { opacity: 0 },
+                    show: {
+                        opacity: 1,
+                        transition: {
+                            staggerChildren: 0.08
+                        }
+                    }
+                }}
+            >
                 {apps.map((app) => (
-                    <button
+                    <motion.button
                         key={app.id}
+                        variants={{
+                            hidden: { opacity: 0, y: 20 },
+                            show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 300, damping: 24 } }
+                        }}
+                        whileHover={{ y: -4, scale: 0.99, transition: { duration: 0.2 } }}
+                        whileTap={{ scale: 0.97 }}
                         onClick={() => onNavigate(app.id as View)}
-                        className={`flex flex-col ${app.id === 'explore' && user && exploreArticles.length > 0 ? 'p-0' : 'p-6'} bg-white dark:bg-[#050505] rounded-[2rem] shadow-sm border border-neutral-200/60 dark:border-white/5 hover:shadow-xl hover:-translate-y-1 transition-[transform,box-shadow] duration-300 group relative overflow-hidden text-left h-auto min-h-[14rem] sm:h-56`}
+                        className={`flex flex-col ${app.id === 'explore' && user && exploreArticles.length > 0 ? 'p-0' : 'p-6'} bg-white dark:bg-[#050505] rounded-[2rem] shadow-sm border border-neutral-200/60 dark:border-white/5 hover:shadow-xl transition-[box-shadow] duration-300 group relative overflow-hidden text-left h-auto min-h-[14rem] sm:h-56 w-full cursor-pointer focus:outline-none`}
                     >
                         {/* Animated Gradient Background on Hover */}
                         <div className={`absolute inset-0 bg-gradient-to-br ${app.bg.replace('bg-', 'from-').split(' ')[0]} to-transparent opacity-0 group-hover:opacity-10 dark:group-hover:opacity-10 transition-opacity duration-300`} />
@@ -1266,9 +1290,9 @@ const HomeView: React.FC<HomeViewProps> = ({ onNavigate, user, userProfile, expl
                         <div className="relative z-10 w-full h-full">
                             {renderCardContent(app)}
                         </div>
-                    </button>
+                    </motion.button>
                 ))}
-            </div>
+            </motion.div>
 
             {/* Legal Footer for Public Verification */}
             <footer className="mt-auto pt-6 pb-2 text-center border-t border-neutral-200 dark:border-neutral-800 text-xs text-neutral-500 dark:text-neutral-500">

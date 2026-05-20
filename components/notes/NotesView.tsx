@@ -785,7 +785,7 @@ const NotesView: React.FC<NotesViewProps> = ({ user, onBack, searchQuery, setSea
     return (
         <main className="relative z-10 h-full overflow-y-auto bg-[#F2F4F7] dark:bg-black transition-colors scrollbar-hide pt-20 md:pt-16">
             
-            <div className="max-w-[1600px] mx-auto p-3 md:p-4 min-h-[calc(100vh-140px)] flex flex-col">
+            <div className="max-w-7xl mx-auto p-3 md:p-6 min-h-[calc(100vh-140px)] flex flex-col">
                 {isLoading ? (
                     <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 space-y-3">
                         {[...Array(6)].map((_, i) => (

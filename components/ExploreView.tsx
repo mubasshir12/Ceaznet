@@ -10,6 +10,7 @@ import { useDynamicColors, defaultColors } from '../hooks/useDynamicColors';
 import { getInteractions, saveInteraction, incrementStat } from '../services/dbService';
 import BookmarkFeedSheet from './BookmarkFeedSheet';
 import { supabase } from '../services/supabaseClient';
+import { motion } from 'motion/react';
 
 const allCategories = ['technology', 'business', 'science', 'health', 'sports', 'entertainment'];
 const categories = ['for-you', ...allCategories];
@@ -348,20 +349,41 @@ const ExploreView: React.FC<ExploreViewProps> = ({
                         No articles available.
                     </div>
                 ) : (
-                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+                    <motion.div 
+                        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto"
+                        initial="hidden"
+                        animate="show"
+                        variants={{
+                            hidden: { opacity: 0 },
+                            show: {
+                                opacity: 1,
+                                transition: {
+                                    staggerChildren: 0.1
+                                }
+                            }
+                        }}
+                    >
                         {articles.map((article, index) => (
-                            <ArticleCard
+                            <motion.div
                                 key={`${article.url}-grid-${index}`}
-                                article={article}
-                                onReadArticle={onReadArticle}
-                                isLiked={interactions[article.url]?.liked ?? false}
-                                isBookmarked={interactions[article.url]?.bookmarked ?? false}
-                                onLike={() => handleInteraction(article.url, 'like')}
-                                onBookmark={() => handleInteraction(article.url, 'bookmark')}
-                                variant="grid"
-                            />
+                                variants={{
+                                    hidden: { opacity: 0, y: 30 },
+                                    show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 300, damping: 24 } }
+                                }}
+                            >
+                                <ArticleCard
+                                    article={article}
+                                    onReadArticle={onReadArticle}
+                                    isLiked={interactions[article.url]?.liked ?? false}
+                                    isBookmarked={interactions[article.url]?.bookmarked ?? false}
+                                    onLike={() => handleInteraction(article.url, 'like')}
+                                    onBookmark={() => handleInteraction(article.url, 'bookmark')}
+                                    variant="grid"
+                                    className="h-full"
+                                />
+                            </motion.div>
                         ))}
-                    </div>
+                    </motion.div>
                 )}
             </div>
             

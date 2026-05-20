@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useMemo } from 'react';
 import { View, MoleculeData, VoiceName, NewsArticle, UserProfile, UserArticleInteraction, UIPreferences, Transaction, FinanceProfile, Note } from '../types';
 import TranslatorView from './Translator';
 import MoleculeViewer from './MoleculeViewer';
@@ -21,13 +21,14 @@ import ChemistryView from './ChemistryView';
 import VoiceHistoryView from './VoiceHistoryView';
 import VoiceSettingsView from './VoiceSettingsView';
 import NotFoundView from './NotFoundView';
-
 import { SupportView } from './SupportView';
+import { motion, AnimatePresence } from 'motion/react';
 
 interface ViewRendererProps {
     currentView: View;
     translatorUsage: { input: number, output: number };
     setCurrentView: (view: View) => void;
+    // ... rest of props
     scrollContainerRef: React.RefObject<HTMLDivElement>;
     onCloseTranslator: () => void;
     onTranslationComplete: (tokens: { input: number, output: number }) => void;
@@ -103,6 +104,21 @@ interface ViewRendererProps {
     setSupportHeaderState: (state: { title: string | null; onBack?: () => void }) => void;
 }
 
+const PageTransition: React.FC<{ children: React.ReactNode, viewKey: string }> = ({ children, viewKey }) => {
+    return (
+        <motion.div
+            key={viewKey}
+            initial={{ opacity: 0, y: 15, scale: 0.98 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.98 }}
+            transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+            className="w-full h-full"
+        >
+            {children}
+        </motion.div>
+    );
+};
+
 const ViewRenderer: React.FC<ViewRendererProps> = ({
     currentView,
     translatorUsage,
@@ -165,150 +181,160 @@ const ViewRenderer: React.FC<ViewRendererProps> = ({
     setSupportHeaderState
 }) => {
 
-    switch (currentView) {
-        case 'about':
-            return <AboutView onNavigate={setCurrentView} />;
-        case 'features':
-            return <FeaturesView onNavigate={setCurrentView} />;
-        case 'privacy-policy':
-            return <PrivacyPolicyView onNavigate={setCurrentView} />;
-        case 'terms-of-service':
-            return <TermsOfServiceView onNavigate={setCurrentView} />;
-        case 'support':
-            return <SupportView setSupportHeaderState={setSupportHeaderState} userProfile={userProfile} />;
-        case 'settings':
-            return (
-                <SettingsView
-                    onBack={() => setCurrentView('home')}
-                    onNavigate={setCurrentView}
-                    preferences={uiPreferences}
-                    onUpdatePreferences={onUpdatePreferences}
-                    currentTheme={currentTheme}
-                    onThemeChange={onThemeChange}
-                    userProfile={userProfile}
-                    onEditProfile={onEditProfile}
-                />
-            );
-        case 'voice-settings':
-            return (
-                <VoiceSettingsView
-                    onBack={() => setCurrentView('live-conversation')}
-                    selectedVoice={voiceModeVoice}
-                    setSelectedVoice={setVoiceModeVoice}
-                    voiceModeToneInstruction={voiceModeToneInstruction}
-                    setVoiceModeToneInstruction={setVoiceModeToneInstruction}
-                    customInstruction={voiceModeCustomInstruction}
-                    setCustomInstruction={setVoiceModeCustomInstruction}
-                    isProactiveModeEnabled={isVoiceProactiveMode}
-                    setIsVoiceProactiveMode={setIsVoiceProactiveMode}
-                    isAudioRecordingEnabled={isAudioRecordingEnabled}
-                    setIsAudioRecordingEnabled={setIsAudioRecordingEnabled}
-                />
-            );
-        case 'notes':
-            return (
-                <NotesView 
-                    user={user} 
-                    onBack={() => setCurrentView('home')}
-                    searchQuery={notesSearchQuery || ''}
-                    setSearchQuery={setNotesSearchQuery}
-                    setNotesHeaderState={setNotesHeaderState}
-                />
-            );
-        case 'finance':
-            return (
-                <FinanceView
-                    user={user}
-                    onBack={() => setCurrentView('home')}
-                    searchQuery={financeSearchQuery || ''}
-                />
-            );
-        case 'dairy':
-            return <DairyView setDairyHeaderState={setDairyHeaderState} />;
-        case 'gallery':
-            return <GalleryView user={user} setGalleryHeaderState={setGalleryHeaderState} />;
-        case 'translator':
-            return <TranslatorView onBack={onCloseTranslator} onTranslationComplete={onTranslationComplete} />;
-        case 'molecule-viewer':
-            return <ChemistryView customMolecule={moleculeForFullScreen} user={user} />;
-        case 'live-conversation':
-            return <LiveConversationView
-                        onBack={onBackFromLive}
+    const renderView = () => {
+        switch (currentView) {
+            case 'about':
+                return <AboutView onNavigate={setCurrentView} />;
+            case 'features':
+                return <FeaturesView onNavigate={setCurrentView} />;
+            case 'privacy-policy':
+                return <PrivacyPolicyView onNavigate={setCurrentView} />;
+            case 'terms-of-service':
+                return <TermsOfServiceView onNavigate={setCurrentView} />;
+            case 'support':
+                return <SupportView setSupportHeaderState={setSupportHeaderState} userProfile={userProfile} />;
+            case 'settings':
+                return (
+                    <SettingsView
+                        onBack={() => setCurrentView('home')}
+                        onNavigate={setCurrentView}
+                        preferences={uiPreferences}
+                        onUpdatePreferences={onUpdatePreferences}
+                        currentTheme={currentTheme}
+                        onThemeChange={onThemeChange}
+                        userProfile={userProfile}
+                        onEditProfile={onEditProfile}
+                    />
+                );
+            case 'voice-settings':
+                return (
+                    <VoiceSettingsView
+                        onBack={() => setCurrentView('live-conversation')}
                         selectedVoice={voiceModeVoice}
                         setSelectedVoice={setVoiceModeVoice}
-                        personaInstruction={voiceModePersonaInstruction}
-                        setPersonaInstruction={setVoiceModePersonaInstruction}
                         voiceModeToneInstruction={voiceModeToneInstruction}
                         setVoiceModeToneInstruction={setVoiceModeToneInstruction}
                         customInstruction={voiceModeCustomInstruction}
                         setCustomInstruction={setVoiceModeCustomInstruction}
-                        isVoiceProactiveMode={isVoiceProactiveMode}
+                        isProactiveModeEnabled={isVoiceProactiveMode}
                         setIsVoiceProactiveMode={setIsVoiceProactiveMode}
-                        onSaveVoiceConversation={onSaveVoiceConversation}
-                        continuationContext={voiceContinuationContext}
-                        onViewHistory={() => setCurrentView('voice-history')}
-                        onOpenSettings={() => setCurrentView('voice-settings')}
-                        isSaving={isVoiceConversationSaving}
                         isAudioRecordingEnabled={isAudioRecordingEnabled}
                         setIsAudioRecordingEnabled={setIsAudioRecordingEnabled}
-                    />;
-        case 'voice-history':
-            return <VoiceHistoryView 
-                        onBack={() => setCurrentView('live-conversation')} 
+                    />
+                );
+            case 'notes':
+                return (
+                    <NotesView 
                         user={user} 
-                        userProfile={userProfile} 
-                        isSaving={isVoiceConversationSaving}
-                        showBackButton={previousView === 'live-conversation'}
-                        onOpenSidebar={onOpenSidebar}
-                        searchQuery={voiceHistorySearchQuery || ''}
-                        onNavigate={setCurrentView}
-                        onLogout={onLogout}
-                        onOpenAuthModal={onOpenAuthModal}
-                        onOpenProfileModal={onEditProfile}
-                    />;
-        case 'explore':
-            return <ExploreView 
-                        onBack={() => setCurrentView('home')} 
-                        user={user} 
-                        onReadArticle={onReadArticle}
-                        currentIndex={exploreCurrentIndex}
-                        setCurrentIndex={setExploreCurrentIndex}
-                        activeCategory={exploreActiveCategory}
-                        setActiveCategory={setExploreActiveCategory}
-                        articles={exploreArticles}
-                        setArticles={setExploreArticles}
-                        isLoading={exploreIsLoading}
-                        error={exploreError}
+                        onBack={() => setCurrentView('home')}
+                        searchQuery={notesSearchQuery || ''}
+                        setSearchQuery={setNotesSearchQuery}
+                        setNotesHeaderState={setNotesHeaderState}
+                    />
+                );
+            case 'finance':
+                return (
+                    <FinanceView
+                        user={user}
+                        onBack={() => setCurrentView('home')}
+                        searchQuery={financeSearchQuery || ''}
+                    />
+                );
+            case 'dairy':
+                return <DairyView setDairyHeaderState={setDairyHeaderState} />;
+            case 'gallery':
+                return <GalleryView user={user} setGalleryHeaderState={setGalleryHeaderState} />;
+            case 'translator':
+                return <TranslatorView onBack={onCloseTranslator} onTranslationComplete={onTranslationComplete} />;
+            case 'molecule-viewer':
+                return <ChemistryView customMolecule={moleculeForFullScreen} user={user} />;
+            case 'live-conversation':
+                return <LiveConversationView
+                            onBack={onBackFromLive}
+                            selectedVoice={voiceModeVoice}
+                            setSelectedVoice={setVoiceModeVoice}
+                            personaInstruction={voiceModePersonaInstruction}
+                            setPersonaInstruction={setVoiceModePersonaInstruction}
+                            voiceModeToneInstruction={voiceModeToneInstruction}
+                            setVoiceModeToneInstruction={setVoiceModeToneInstruction}
+                            customInstruction={voiceModeCustomInstruction}
+                            setCustomInstruction={setVoiceModeCustomInstruction}
+                            isVoiceProactiveMode={isVoiceProactiveMode}
+                            setIsVoiceProactiveMode={setIsVoiceProactiveMode}
+                            onSaveVoiceConversation={onSaveVoiceConversation}
+                            continuationContext={voiceContinuationContext}
+                            onViewHistory={() => setCurrentView('voice-history')}
+                            onOpenSettings={() => setCurrentView('voice-settings')}
+                            isSaving={isVoiceConversationSaving}
+                            isAudioRecordingEnabled={isAudioRecordingEnabled}
+                            setIsAudioRecordingEnabled={setIsAudioRecordingEnabled}
+                        />;
+            case 'voice-history':
+                return <VoiceHistoryView 
+                            onBack={() => setCurrentView('live-conversation')} 
+                            user={user} 
+                            userProfile={userProfile} 
+                            isSaving={isVoiceConversationSaving}
+                            showBackButton={previousView === 'live-conversation'}
+                            onOpenSidebar={onOpenSidebar}
+                            searchQuery={voiceHistorySearchQuery || ''}
+                            onNavigate={setCurrentView}
+                            onLogout={onLogout}
+                            onOpenAuthModal={onOpenAuthModal}
+                            onOpenProfileModal={onEditProfile}
+                        />;
+            case 'explore':
+                return <ExploreView 
+                            onBack={() => setCurrentView('home')} 
+                            user={user} 
+                            onReadArticle={onReadArticle}
+                            currentIndex={exploreCurrentIndex}
+                            setCurrentIndex={setExploreCurrentIndex}
+                            activeCategory={exploreActiveCategory}
+                            setActiveCategory={setExploreActiveCategory}
+                            articles={exploreArticles}
+                            setArticles={setExploreArticles}
+                            isLoading={exploreIsLoading}
+                            error={exploreError}
+                            interactions={interactions}
+                            handleInteraction={handleInteraction}
+                            isBookmarkFeedOpen={isBookmarkFeedOpen}
+                            setIsBookmarkFeedOpen={setIsBookmarkFeedOpen}
+                            bookmarkCount={bookmarkCount}
+                        />;
+            case 'article-reader':
+                return articleForReading ? (
+                    <ArticleReaderView
+                        article={articleForReading}
+                        onBack={() => setCurrentView('explore')}
+                        user={user}
                         interactions={interactions}
                         handleInteraction={handleInteraction}
-                        isBookmarkFeedOpen={isBookmarkFeedOpen}
-                        setIsBookmarkFeedOpen={setIsBookmarkFeedOpen}
-                        bookmarkCount={bookmarkCount}
-                    />;
-        case 'article-reader':
-            return articleForReading ? (
-                <ArticleReaderView
-                    article={articleForReading}
-                    onBack={() => setCurrentView('explore')}
-                    user={user}
-                    interactions={interactions}
-                    handleInteraction={handleInteraction}
-                    allArticles={exploreArticles}
-                    onReadArticle={onReadArticle}
-                    onArticleUpdate={onArticleUpdate}
-                />
-            ) : (
-                <div className="flex flex-col items-center justify-center p-8 h-full bg-white dark:bg-[#09090b]">
-                   <LoaderCircle className="w-8 h-8 text-[#0066FF] animate-spin mb-4" />
-                   <p className="text-[#878787] dark:text-[#a1a1aa]">Loading article...</p>
-                </div>
-            );
-        case 'not-found':
-            return <NotFoundView onNavigate={setCurrentView} />;
-        case 'home':
-        default:
-            return <HomeView onNavigate={setCurrentView} user={user} userProfile={userProfile} exploreArticles={exploreArticles} />;
-    }
+                        allArticles={exploreArticles}
+                        onReadArticle={onReadArticle}
+                        onArticleUpdate={onArticleUpdate}
+                    />
+                ) : (
+                    <div className="flex flex-col items-center justify-center p-8 h-full bg-white dark:bg-[#09090b]">
+                       <LoaderCircle className="w-8 h-8 text-[#0066FF] animate-spin mb-4" />
+                       <p className="text-[#878787] dark:text-[#a1a1aa]">Loading article...</p>
+                    </div>
+                );
+            case 'not-found':
+                return <NotFoundView onNavigate={setCurrentView} />;
+            case 'home':
+            default:
+                return <HomeView onNavigate={setCurrentView} user={user} userProfile={userProfile} exploreArticles={exploreArticles} />;
+        }
+    };
+
+    return (
+        <AnimatePresence mode="wait">
+            <PageTransition viewKey={currentView}>
+                {renderView()}
+            </PageTransition>
+        </AnimatePresence>
+    );
 };
 
 export default ViewRenderer;
