@@ -39,6 +39,10 @@
         height: 100dvh;
         width: 100%;
         overflow: hidden; /* Prevent scroll on html */
+        background-color: #F9F6F2;
+      }
+      html.dark {
+        background-color: #000000;
       }
       
       /* --- Dynamic Border Radius Overrides --- */
@@ -87,7 +91,8 @@
         left: 0;
         overscroll-behavior: none; /* Disable pull-to-refresh effects */
         /* Default font size, overridden by JS */
-        font-size: 14px; 
+        font-size: 14px;
+        background-color: transparent;
       }
       /* Font Family Classes applied to Body */
       body.font-sans { font-family: 'Geist Sans', sans-serif; --app-font-family: 'Geist Sans', sans-serif; }
