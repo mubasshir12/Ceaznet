@@ -22,8 +22,8 @@ export default defineConfig(({ mode }) => {
             name: 'Ceaznet',
             short_name: 'Ceaznet',
             description: 'Ceaznet Application',
-            theme_color: '#ffffff',
-            background_color: '#ffffff',
+            theme_color: '#F9F6F2',
+            background_color: '#F9F6F2',
             display: 'standalone',
             icons: [
               {
